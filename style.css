@@ -1,0 +1,104 @@
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: darkorange;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 800;
+  font-size: 90px;
+  color: rgb(0, 0, 0);
+  text-decoration: underline;
+}
+
+.game {
+  margin-top: 40px;
+  width: 90%;
+  display: flex;
+  border: 12px solid black;
+}
+
+.game-txt {
+  text-align: center;
+  font-size: x-large;
+  font-weight: 600;
+}
+
+.left-game {
+  height: 500px;
+  width: 50%;
+  background-color: tan;
+  border-right: 12px solid black;
+}
+
+.right-game {
+  height: 500px;
+  width: 50%;
+  background-color: teal;
+}
+
+.game-base {
+  background-color: bisque;
+  width: 90%;
+  height: 100px;
+  border: 12px solid black;
+  border-top: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-container {
+  display: flex;
+}
+
+.btn {
+  width: 80px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 4px solid black;
+  border-radius: 10px;
+  margin: 10px;
+  cursor: pointer;
+  transition: all ease 0.2s;
+}
+
+.btn:hover {
+  transform: translate3d(0, 2px, 0);
+}
+
+.btn > div {
+  font-size: x-large;
+  font-weight: 800;
+}
+
+.result-table {
+  background-color: bisque;
+  width: 90%;
+  height: 150px;
+  border: 12px solid black;
+  border-top: 0px;
+  font-size: xx-large;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+table,
+th,
+td {
+  border: 4px solid black;
+  border-collapse: collapse;
+  padding: 4px;
+  height: 80%;
+}
